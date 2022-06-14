@@ -1,3 +1,109 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
 body {
-  background-color: rebeccapurple;
+  background-color: white;
+}
+
+.container {
+  margin: 10px;
+  height: 80vh;
+  padding: 5vh;
+}
+
+#bigtext {
+  margin-left: 10%;
+  margin-top: 5px;
+  font-family: cursive;
+}
+
+.showCase {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: flex-start;
+  margin-top: 10px;
+  height: 70vh;
+  border: 1px solid #3333;
+}
+
+.display {
+  margin-top: 5%;
+  margin-right: 12%;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.form-section {
+  margin-top: 6%;
+  margin-right: 12%;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.score-div {
+  display: flex;
+  padding: 5px;
+}
+
+.display-text {
+  margin-right: 15px;
+}
+
+#refresh {
+  padding: 3px;
+  font-size: 20px;
+}
+
+#showScores {
+  border: 2px solid #3333;
+  width: 100%;
+  padding: 2px;
+  background-color: inherit;
+}
+
+.show {
+  background-color: inherit;
+  width: 100%;
+}
+
+.show-p {
+  padding: 5px;
+  display: block;
+}
+
+.show-p:nth-child(odd) {
+  background-color: #fff;
+}
+
+.show-p:nth-child(even) {
+  background-color: grey;
+}
+
+#form-div {
+  display: flex;
+  flex-direction: column;
+  margin-left: 0;
+}
+
+#form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+#form input {
+  width: 200px;
+  padding: 10px;
+}
+
+#submit {
+  width: 80px;
+  align-self: flex-end;
+  padding: 7px;
+  font-size: 18px;
+  text-align: center;
 }
