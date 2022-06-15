@@ -24,7 +24,7 @@ body {
   justify-content: space-evenly;
   align-items: flex-start;
   margin-top: 10px;
-  height: 70vh;
+  height: 80vh;
   border: 1px solid #3333;
 }
 
@@ -60,14 +60,15 @@ body {
 
 #showScores {
   border: 2px solid #3333;
-  width: 400px;
-  padding: 12px;
+  width: 500px;
+  padding: 8px;
   background-color: inherit;
 }
 
 .show-p {
-  padding: 10px;
+  padding: 7px;
   display: block;
+  max-height: 70vh;
 }
 
 .show-p:nth-child(odd) {

@@ -9,7 +9,9 @@ const refresh = document.getElementById('refresh');
 const message = document.getElementById('errorMessage');
 
 document.addEventListener('DOMContentLoaded', showAllScores);
-refresh.addEventListener('click', showAllScores);
+refresh.addEventListener('click',() =>{
+  showAllScores();
+});
 submit.addEventListener('click', async (e) => {
   e.preventDefault();
   if (playerName.value === '' || playerScore.value === '') {
