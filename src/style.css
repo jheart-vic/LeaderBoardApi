@@ -60,18 +60,13 @@ body {
 
 #showScores {
   border: 2px solid #3333;
-  width: 100%;
-  padding: 2px;
+  width: 400px;
+  padding: 12px;
   background-color: inherit;
-}
-
-.show {
-  background-color: inherit;
-  width: 100%;
 }
 
 .show-p {
-  padding: 5px;
+  padding: 10px;
   display: block;
 }
 
