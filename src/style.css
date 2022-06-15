@@ -68,7 +68,6 @@ body {
 .show-p {
   padding: 7px;
   display: block;
-  max-height: 70vh;
 }
 
 .show-p:nth-child(odd) {

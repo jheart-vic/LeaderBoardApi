@@ -9,7 +9,7 @@ const refresh = document.getElementById('refresh');
 const message = document.getElementById('errorMessage');
 
 document.addEventListener('DOMContentLoaded', showAllScores);
-refresh.addEventListener('click',() =>{
+refresh.addEventListener('click', () => {
   showAllScores();
 });
 submit.addEventListener('click', async (e) => {
@@ -22,7 +22,6 @@ submit.addEventListener('click', async (e) => {
     }, 2000);
   }
   await setScores(playerName.value, playerScore.value);
-  showAllScores();
   playerName.value = '';
   playerScore.value = '';
 });
