@@ -1,9 +1,9 @@
-let url = 'https://us-central1-js-capstone-backend.cloudfunctions.net/api/games/MKgk0wCou03zNTUxgPzr/scores';
+const url = 'https://us-central1-js-capstone-backend.cloudfunctions.net/api/games/MKgk0wCou03zNTUxgPzr/scores';
 
 const setData = async () => {
   const response = await fetch(url);
   const scores = await response.json();
-   return scores
+  return scores;
 };
 
 const setScores = async (player, scores) => {
@@ -15,7 +15,7 @@ const setScores = async (player, scores) => {
     body: JSON.stringify({ user: player, score: scores }),
   });
   const allScore = information.json();
-  return allScore
+  return allScore;
 };
 
 export { setData, setScores };
@@ -57,5 +57,3 @@ export { setData, setScores };
 // .then((data) => {
 //   data.json().then((val) => console.log(val))
 // })
-
-
