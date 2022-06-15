@@ -19,25 +19,25 @@ const setScores = async (player, scores) => {
 };
 
 export { setData, setScores };
-let id;
-// generating game id from api
-fetch('https://us-central1-js-capstone-backend.cloudfunctions.net/api/games', {
-  method: "post",
-  headers: {
-    "content-type": "application/json"
-  },
-  body: JSON.stringify({
-    "name": "another cool game"
-  })
-})
+// let id;
+// // generating game id from api
+// fetch('https://us-central1-js-capstone-backend.cloudfunctions.net/api/games', {
+//   method: 'post',
+//   headers: {
+//     'content-type': 'application/json',
+//   },
+//   body: JSON.stringify({
+//     name: 'another cool game',
+//   }),
+// })
 
-.then((res) => {
-  res.json().then((value) => {
-    console.log(value);
-    id = value.result.split(" ")[3]
-    console.log(id)
-})
-})
+//   .then((res) => {
+//     res.json().then((value) => {
+//       console.log(value);
+//       id = value.result.split(' ')[3];
+//       console.log(id);
+//     });
+//   });
 // posting users and score
 // fetch('https://us-central1-js-capstone-backend.cloudfunctions.net/api/games/EoTxCV02Ftb3pgz9Cebz/scores', {
 //   method: "post",
