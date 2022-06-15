@@ -83,6 +83,10 @@ body {
   background-color: grey;
 }
 
+#errorMessage {
+  display: none;
+}
+
 #form-div {
   display: flex;
   flex-direction: column;
