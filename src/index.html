@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- <link rel="stylesheet" href="style.css"> -->
+    <title>Leaderboard</title>
+  </head>
+  <body>
+    <div id="wrapper" class="container">
+      <h1 id="bigtext">LeaderBoard</h1>
+      <div id="showCaseWrapper" class="showCase">
+        <div id="display-div" class="display">
+          <div class="score-div">
+            <h2 class="display-text">Recent scores</h2>
+            <button id="refresh">Refresh</button>
+          </div>
+          <div id="showScores">
+          </div>
+        </div>
+        <div class="form-section" id="form-div">
+          <h2 id="form-text">Add your score</h2>
+          <p id="errorMessage"></p>
+          <form action="#" id="form">
+            <div class="load-indicator"></div>
+            <input type="text" id="name" placeholder="Your name">
+            <input type="number" id="score" placeholder="Your score">
+            <button id="submit">Submit</button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
