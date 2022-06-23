@@ -9,7 +9,7 @@ A project for fetching API and using the data to score students
 
 ## Live Demo
 
-[Live Demo Link](https://jheart-vic.github.io/LeaderBoardApi/)
+[Live Demo Link](https://jheart-vic.github.io/LeaderBoardApi/dist)
 
 ## Getting Started
 
