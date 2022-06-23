@@ -39,9 +39,7 @@ submit.addEventListener('click', async (e) => {
       message.style.display = 'none';
       load.style.animation = '';
     }, 5000);
-  }
-
-  if (playerName.value !== '' && playerScore.value !== '') {
+  }else {
     message.innerText = 'Your score has been added, click refresh to see score';
     message.style.color = 'rgb(0, 168,132)';
     message.style.display = 'block';
